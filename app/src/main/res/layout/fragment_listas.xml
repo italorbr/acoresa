@@ -3,16 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#556B2F"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".ListasFragment"
-    android:background="#F5F5DC">
+    tools:context=".ListasFragment">
 
     <!-- TabLayout para as categorias de alimentos -->
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:background="#E6E6CD" />
 
     <!-- ViewPager para exibir as listas de alimentos -->
     <androidx.viewpager2.widget.ViewPager2

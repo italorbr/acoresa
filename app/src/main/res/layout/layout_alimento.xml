@@ -13,9 +13,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:orientation="horizontal"
-        android:background="#D8D1B0">
+        android:background="@drawable/rounded_border"
+        android:backgroundTint="#ffff"
+        >
 
         <ImageView
             android:id="@+id/image_food"
